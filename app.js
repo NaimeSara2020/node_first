@@ -1,3 +1,5 @@
+//İmport ettiğin kutuphanelerin ne ise yaradıgınıda yazar mısın?
+
 import express from "express";
 import dotenv from 'dotenv';
 import conn from './db.js';
