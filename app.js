@@ -1,9 +1,11 @@
 //İmport ettiğin kutuphanelerin ne ise yaradıgınıda yazar mısın?
 
-import express from "express";
-import dotenv from 'dotenv';
-import conn from './db.js';
-import pageRoute from './routes/pageRoute.js';
+//Ok yazarımmm:)
+
+import express from "express";  // web sunucu çatısı gelen istek yöntemlerine göre işlem yapar
+import dotenv from 'dotenv';  //.env dosyasında değişkenleri tutup onu kolayca ulaşmamızı sağlar
+import conn from './db.js';   //veritabanı bağlantısı
+import pageRoute from './routes/pageRoute.js';   //Url yönlendirmesi
 
 dotenv.config();
 
