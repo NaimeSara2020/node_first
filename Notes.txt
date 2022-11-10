@@ -1,1 +1,2 @@
 herokuyu inceler misin?
+devDependencies ve Dependencies arasındaki farkları inceler misin?
