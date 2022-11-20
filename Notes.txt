@@ -1,2 +1,24 @@
 herokuyu inceler misin?
 devDependencies ve Dependencies arasındaki farkları inceler misin?
+
+
+
+****** heroku : Bulut tabanlı bir yazılım çözümüdür. 
+****** Uygulama altyapı servis sağlayıcısı. Projeye erişmek.
+***** Ücretsiz uygulamadır. PAAS (Platfrom As As Server) 
+*** Heroku için login olundu .
+**** Şuan üzerinde çalışılan proje için githup ile birleştirildi.
+(Ama sanırım api için kullanılacak:))))
+
+
+Dependencies : package.json da oluşan kütüphaneler ile projede ihtiyaç olan kütüphanelerin kullanılmasını sağlar.
+devDependencies : kütüphanelerin detaylarını içinde barındıran genellikle test için kullanılır.
+
+
+--- bodyParser:request içersindeki json verilerini almak için kullanılır.
+
+-- pass by reference
+-- pass by value
+
+--thunder client (Postman türevi)
+
