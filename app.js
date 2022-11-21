@@ -6,7 +6,8 @@ import express from "express";  // web sunucu çatısı gelen istek yöntemlerin
 import dotenv from 'dotenv';  //.env dosyasında değişkenleri tutup onu kolayca ulaşmamızı sağlar
 import conn from './db.js';   //veritabanı bağlantısı
 import pageRoute from './routes/pageRoute.js';   //Url yönlendirmesi
-import photoRoute from './routes/photoRoute.js'
+import photoRoute from './routes/photoRoute.js';
+import userRoute from './routes/userRoute.js';
 
 dotenv.config();
 
@@ -23,10 +24,12 @@ app.set("view engine","ejs")
 //static files middleware
 app.use(express.static('public'));
 app.use(express.json()) //post işlemlerinde body de çalışan json verileri alabilmek
+app.use(express.urlencoded({extended : true})) //form alanlarındaki verileri alabilmek 
 
 //routes
 app.use('/',pageRoute);
 app.use('/photos',photoRoute);
+app.use('/users',userRoute);
 
 
 // app.get("/", (req,res)=>{

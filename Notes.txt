@@ -22,3 +22,5 @@ devDependencies : kütüphanelerin detaylarını içinde barındıran genellikle
 
 --thunder client (Postman türevi)
 
+--password hash lemak için bcrypt kullanılacak  (npm i bcrypt) kütüphanesini indiriyoruz.
+
