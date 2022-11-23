@@ -24,3 +24,7 @@ devDependencies : kütüphanelerin detaylarını içinde barındıran genellikle
 
 --password hash lemak için bcrypt kullanılacak  (npm i bcrypt) kütüphanesini indiriyoruz.
 
+--jwt json web token oluşturma sitesi veri doğrulamasını sağlayan json tabanlı 
+
+-- cookie parser (npm i cookie-parser) komutu ile indirilme sağlanır
+
